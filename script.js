@@ -4,8 +4,8 @@
    { ... }, colle-le à la suite (n'oublie pas la virgule)
    et change les textes / noms de fichiers.
 
-   - "image"  : fichier de couverture, dans le dossier images/
-                (ex: "images/affiche-jazz.jpg")
+   - "image"  : fichier de couverture, dans le dossier image/
+                (ex: "image/affiche-jazz.jpg")
    - "images" : autres images du projet (affichées à la suite)
                 (facultatif, surtout utile pour les projets)
    - "ratio"  : proportions de la couverture, "largeur / hauteur"
@@ -24,79 +24,79 @@ const PROJETS = [
     titre: "Cover fictive de l’album IN INFINITUM de SDM",
     categorie: "Pochette d’album",
     ratio: "4 / 3",
-    image: "images/in-infinitum-1-digipack.jpg",
+    image: "image/in-infinitum-1-digipack.jpg",
     couleur: "#2e0a1b",
     description: "Pochette fictive pour l’album IN INFINITUM de SDM : digipack, vinyle et CD, dans une ambiance sombre aux touches bleu nuit.",
     images: [
-      "images/in-infinitum-2-vinyle.jpg",
-      "images/in-infinitum-3-artwork.jpg"
+      "image/in-infinitum-2-vinyle.jpg",
+      "image/in-infinitum-3-artwork.jpg"
     ]
   },
   {
     titre: "Cover d’album pour Jolagreen #1",
     categorie: "Pochette d’album",
     ratio: "4 / 3",
-    image: "images/jolagreen-1-digipack.jpg",
+    image: "image/jolagreen-1-digipack.jpg",
     couleur: "#8a8a8a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD dans une ambiance grise et claire, façon plan technique.",
     images: [
-      "images/jolagreen-1-vinyle.jpg",
-      "images/jolagreen-1-artwork.jpg"
+      "image/jolagreen-1-vinyle.jpg",
+      "image/jolagreen-1-artwork.jpg"
     ]
   },
   {
     titre: "Cover d’album pour Jolagreen #2",
     categorie: "Pochette d’album",
     ratio: "4 / 3",
-    image: "images/jolagreen-2-digipack.jpg",
+    image: "image/jolagreen-2-digipack.jpg",
     couleur: "#2a2a2a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD en noir et blanc, avec un jeu de négatif entre les deux volets.",
     images: [
-      "images/jolagreen-2-vinyle.jpg",
-      "images/jolagreen-2-artwork.jpg"
+      "image/jolagreen-2-vinyle.jpg",
+      "image/jolagreen-2-artwork.jpg"
     ]
   },
   {
     titre: "Cover d’album pour Jolagreen #3",
     categorie: "Pochette d’album",
     ratio: "4 / 3",
-    image: "images/jolagreen-3-digipack.jpg",
+    image: "image/jolagreen-3-digipack.jpg",
     couleur: "#1b1c33",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD dans un bleu nuit sombre, traversé par un faisceau de lumière.",
     images: [
-      "images/jolagreen-3-vinyle.jpg",
-      "images/jolagreen-3-artwork.jpg"
+      "image/jolagreen-3-vinyle.jpg",
+      "image/jolagreen-3-artwork.jpg"
     ]
   },
   {
     titre: "Cover d’album pour Jolagreen #4",
     categorie: "Pochette d’album",
     ratio: "4 / 3",
-    image: "images/jolagreen-4-digipack.jpg",
+    image: "image/jolagreen-4-digipack.jpg",
     couleur: "#1f8a8a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD aux couleurs saturées, turquoise et rose.",
     images: [
-      "images/jolagreen-4-vinyle.jpg",
-      "images/jolagreen-4-artwork.jpg"
+      "image/jolagreen-4-vinyle.jpg",
+      "image/jolagreen-4-artwork.jpg"
     ]
   },
   {
     titre: "Cover d’album pour Jolagreen #5",
     categorie: "Pochette d’album",
     ratio: "4 / 3",
-    image: "images/jolagreen-5-digipack.jpg",
+    image: "image/jolagreen-5-digipack.jpg",
     couleur: "#b0193a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD dans un rouge vif sur fond rose pâle.",
     images: [
-      "images/jolagreen-5-vinyle.jpg",
-      "images/jolagreen-5-artwork.jpg"
+      "image/jolagreen-5-vinyle.jpg",
+      "image/jolagreen-5-artwork.jpg"
     ]
   },
   {
     titre: "Poster décoratif sur Lewis Hamilton",
     categorie: "Poster",
     ratio: "1080 / 1350",
-    image: "images/hamilton-poster.jpg",
+    image: "image/hamilton-poster.jpg",
     couleur: "#8a1c5a",
     description: "Poster décoratif sur Lewis Hamilton : un collage en rose et bordeaux, avec une typographie verticale.",
     images: []
@@ -105,7 +105,7 @@ const PROJETS = [
     titre: "Affiche pour annoncer le Stade de France de SDM",
     categorie: "Affiche",
     ratio: "1080 / 1350",
-    image: "images/sdm-stade-de-france.jpg",
+    image: "image/sdm-stade-de-france.jpg",
     couleur: "#5b6b8c",
     description: "Affiche pour annoncer les concerts de SDM au Stade de France, dans des tons bleu glacier, avec la mention complet.",
     images: []
@@ -114,7 +114,7 @@ const PROJETS = [
     titre: "Visuel pour annoncer un jour de match (handball)",
     categorie: "Visuel sport",
     ratio: "1080 / 1350",
-    image: "images/handball-match-day.jpg",
+    image: "image/handball-match-day.jpg",
     couleur: "#16264f",
     description: "Visuel d’annonce de match de handball : date, heure, lieu et équipes en présence.",
     images: []
@@ -123,7 +123,7 @@ const PROJETS = [
     titre: "Visuel pour annoncer le nombre de streams sur l’album « 23 Jours Plus Tard » de Jolagreen",
     categorie: "Visuel réseaux",
     ratio: "1080 / 1350",
-    image: "images/jolagreen-streams-23-jours-plus-tard.jpg",
+    image: "image/jolagreen-streams-23-jours-plus-tard.jpg",
     couleur: "#2f5d3a",
     description: "Visuel pour célébrer le nombre de streams de l’album « 23 Jours Plus Tard » de Jolagreen, dans des verts profonds.",
     images: []
@@ -132,7 +132,7 @@ const PROJETS = [
     titre: "Visuels de fin de match pour annoncer les scores (handball)",
     categorie: "Visuel sport",
     ratio: "1080 / 1350",
-    image: "images/handball-score-final.jpg",
+    image: "image/handball-score-final.jpg",
     couleur: "#27356b",
     description: "Visuel de fin de match pour annoncer le score final et la victoire.",
     images: []
@@ -141,7 +141,7 @@ const PROJETS = [
     titre: "Visuel pour l’annonce de la tracklist de l’album « Grand Garçon » de PLK",
     categorie: "Visuel réseaux",
     ratio: "1080 / 1350",
-    image: "images/plk-tracklist-grand-garcon.jpg",
+    image: "image/plk-tracklist-grand-garcon.jpg",
     couleur: "#6b1a1a",
     description: "Visuel pour dévoiler la tracklist de l’album « Grand Garçon » de PLK, sur une photo floutée aux accents rouges.",
     images: []
@@ -150,7 +150,7 @@ const PROJETS = [
     titre: "Visuel pour l’annonce de l’album « Grand Garçon » de PLK",
     categorie: "Visuel réseaux",
     ratio: "1080 / 1350",
-    image: "images/plk-annonce-grand-garcon.jpg",
+    image: "image/plk-annonce-grand-garcon.jpg",
     couleur: "#b0193a",
     description: "Visuel pour annoncer la sortie de l’album « Grand Garçon » de PLK, dans des rouges intenses.",
     images: []
@@ -159,7 +159,7 @@ const PROJETS = [
     titre: "Fond d’écran pour ordinateur",
     categorie: "Fond d’écran",
     ratio: "3024 / 1964",
-    image: "images/fond-ecran-ordinateur.jpg",
+    image: "image/fond-ecran-ordinateur.jpg",
     couleur: "#a3203f",
     description: "Fond d’écran pour ordinateur : un collage de motifs léopard, de fleurs et de marbre dans des rouges et des roses.",
     images: []
@@ -168,7 +168,7 @@ const PROJETS = [
     titre: "Visuel pour annoncer le nombre de streams sur l’album « Enna Boost » de PLK",
     categorie: "Visuel réseaux",
     ratio: "1080 / 1350",
-    image: "images/plk-streams-enna-boost.jpg",
+    image: "image/plk-streams-enna-boost.jpg",
     couleur: "#3a3a3a",
     description: "Visuel pour annoncer le cap du milliard de streams de l’album « Enna Boost » de PLK.",
     images: []
@@ -177,7 +177,7 @@ const PROJETS = [
     titre: "Visuel décoratif de l’équipe de France de handball",
     categorie: "Visuel sport",
     ratio: "1800 / 2100",
-    image: "images/projet-16-equipe-france-handball.jpg",
+    image: "image/projet-16-equipe-france-handball.jpg",
     couleur: "#2a3a8a",
     description: "Visuel décoratif sur l’équipe de France de handball : un titre massif et les joueurs en bas, dans des bleus profonds.",
     images: []
@@ -186,7 +186,7 @@ const PROJETS = [
     titre: "Affiche d’un festival de musique fictif « Contre Courant » (devoir d’école)",
     categorie: "Affiche",
     ratio: "3508 / 4961",
-    image: "images/projet-17-contre-courant.jpg",
+    image: "image/projet-17-contre-courant.jpg",
     couleur: "#8a1a1e",
     description: "Affiche d’un festival de musique imaginaire, réalisée dans le cadre d’un devoir d’école : programmation, dates, lieu et partenaires.",
     images: []
@@ -195,13 +195,13 @@ const PROJETS = [
     titre: "Carte de visite / carton de visite",
     categorie: "Carte de visite",
     ratio: "644 / 645",
-    image: "images/projet-18-carte-visite-nouvelles-expressions.jpg",
+    image: "image/projet-18-carte-visite-nouvelles-expressions.jpg",
     couleur: "#b8648f",
     description: "Série de cartes et cartons de visite aux ornements dorés, dans une palette de roses et de motifs rayés.",
     images: [
-      "images/projet-18-carte-visite-reverie.jpg",
-      "images/projet-18-carte-visite-circuit-mozart.jpg",
-      "images/projet-18-carte-visite-flute-enchantee.jpg"
+      "image/projet-18-carte-visite-reverie.jpg",
+      "image/projet-18-carte-visite-circuit-mozart.jpg",
+      "image/projet-18-carte-visite-flute-enchantee.jpg"
     ]
   }
 ];
@@ -210,80 +210,80 @@ const PHOTOS = [
   {
     titre: "Bâtiment avec une jolie architecture en Espagne",
     ratio: "1512 / 2016",
-    image: "images/photo-01-batiment-espagne.jpg",
+    image: "image/photo-01-batiment-espagne.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Cliché 3/4 avant d’une Ferrari F40",
     ratio: "1512 / 2016",
-    image: "images/photo-02-ferrari-f40-avant.jpg",
+    image: "image/photo-02-ferrari-f40-avant.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Cliché 3/4 arrière d’une Ferrari F40",
     ratio: "1512 / 2016",
-    image: "images/photo-03-ferrari-f40-arriere.jpg",
+    image: "image/photo-03-ferrari-f40-arriere.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Cliché du feu arrière d’une Ferrari 250 GTO",
     ratio: "1512 / 2016",
-    image: "images/photo-04-ferrari-250-gto-feu-arriere.jpg",
+    image: "image/photo-04-ferrari-250-gto-feu-arriere.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Cliché du feu avant d’une Ferrari F12tdf",
     ratio: "1512 / 2016",
-    image: "images/photo-05-ferrari-f12tdf-feu-avant.jpg",
+    image: "image/photo-05-ferrari-f12tdf-feu-avant.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Cliché de face d’une Porsche 911 GT3 RS",
     ratio: "1170 / 1335",
-    image: "images/photo-06-porsche-911-gt3-rs.jpg",
+    image: "image/photo-06-porsche-911-gt3-rs.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Cliché du monument exposé sur le rond-point du Porsche Museum (Stuttgart)",
     ratio: "1170 / 1473",
-    image: "images/photo-07-porsche-museum-monument.jpg",
+    image: "image/photo-07-porsche-museum-monument.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "L’architecture du Palais Garnier",
     ratio: "1512 / 2016",
-    image: "images/photo-08-palais-garnier.jpg",
+    image: "image/photo-08-palais-garnier.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Circuit Spa-Francorchamps (Belgique)",
     ratio: "1167 / 871",
-    image: "images/photo-09-spa-francorchamps.jpg",
+    image: "image/photo-09-spa-francorchamps.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Feu d’artifice du 14 juillet",
     ratio: "1160 / 1437",
-    image: "images/photo-10-feu-artifice-14-juillet.jpg",
+    image: "image/photo-10-feu-artifice-14-juillet.jpg",
     couleur: "#471029",
     description: ""
   },
   {
     titre: "Lion du zoo de La Palmyre",
     ratio: "1163 / 867",
-    image: "images/photo-11-lion-palmyre-1.jpg",
+    image: "image/photo-11-lion-palmyre-1.jpg",
     couleur: "#471029",
     description: "",
-    images: ["images/photo-11-lion-palmyre-2.jpg"]
+    images: ["image/photo-11-lion-palmyre-2.jpg"]
   }
 ];
 
@@ -292,11 +292,11 @@ const PHOTOS = [
    (tu n'as normalement pas besoin de modifier cette partie)
    ===================================================== */
 
-// Réglage : utiliser les miniatures (images/mini/...) pour les cartes. Plus léger sur téléphone.
+// Réglage : utiliser les miniatures (image/mini/...) pour les cartes. Plus léger sur téléphone.
 // Si une miniature n'existe pas, le site prend automatiquement l'image d'origine.
 const MINIATURES = true;
 function miniature(chemin) {
-  return MINIATURES && chemin ? chemin.replace("images/", "images/mini/") : chemin;
+  return MINIATURES && chemin ? chemin.replace("image/", "image/mini/") : chemin;
 }
 
 // Crée soit une image, soit un rectangle de couleur si l'image manque
