@@ -6,14 +6,14 @@
 
    - "image"  : fichier de couverture, dans le dossier image/
                 (ex: "image/affiche-jazz.jpg")
-   - "images" : autres images du projet (affichées à la suite)
+   - "image" : autres image du projet (affichées à la suite)
                 (facultatif, surtout utile pour les projets)
    - "ratio"  : proportions de la couverture, "largeur / hauteur"
                 ("4 / 5" = vertical, "4 / 3" ou "16 / 9" = paysage).
                 Réserve la bonne place avant que l'image charge.
    - "description" : texte sous le titre (peut rester vide "")
    - Si "image" est vide, un rectangle de couleur s'affiche
-     à la place (pratique tant que tu n'as pas tes images).
+     à la place (pratique tant que tu n'as pas tes image).
 
    Les projets ET les photos utilisent le même carrousel
    et la même fenêtre vitrée.
@@ -27,7 +27,7 @@ const PROJETS = [
     image: "image/in-infinitum-1-digipack.jpg",
     couleur: "#2e0a1b",
     description: "Pochette fictive pour l’album IN INFINITUM de SDM : digipack, vinyle et CD, dans une ambiance sombre aux touches bleu nuit.",
-    images: [
+    image: [
       "image/in-infinitum-2-vinyle.jpg",
       "image/in-infinitum-3-artwork.jpg"
     ]
@@ -39,7 +39,7 @@ const PROJETS = [
     image: "image/jolagreen-1-digipack.jpg",
     couleur: "#8a8a8a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD dans une ambiance grise et claire, façon plan technique.",
-    images: [
+    image: [
       "image/jolagreen-1-vinyle.jpg",
       "image/jolagreen-1-artwork.jpg"
     ]
@@ -51,7 +51,7 @@ const PROJETS = [
     image: "image/jolagreen-2-digipack.jpg",
     couleur: "#2a2a2a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD en noir et blanc, avec un jeu de négatif entre les deux volets.",
-    images: [
+    image: [
       "image/jolagreen-2-vinyle.jpg",
       "image/jolagreen-2-artwork.jpg"
     ]
@@ -63,7 +63,7 @@ const PROJETS = [
     image: "image/jolagreen-3-digipack.jpg",
     couleur: "#1b1c33",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD dans un bleu nuit sombre, traversé par un faisceau de lumière.",
-    images: [
+    image: [
       "image/jolagreen-3-vinyle.jpg",
       "image/jolagreen-3-artwork.jpg"
     ]
@@ -75,7 +75,7 @@ const PROJETS = [
     image: "image/jolagreen-4-digipack.jpg",
     couleur: "#1f8a8a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD aux couleurs saturées, turquoise et rose.",
-    images: [
+    image: [
       "image/jolagreen-4-vinyle.jpg",
       "image/jolagreen-4-artwork.jpg"
     ]
@@ -87,7 +87,7 @@ const PROJETS = [
     image: "image/jolagreen-5-digipack.jpg",
     couleur: "#b0193a",
     description: "Pochette d’album pour Jolagreen : digipack, vinyle et CD dans un rouge vif sur fond rose pâle.",
-    images: [
+    image: [
       "image/jolagreen-5-vinyle.jpg",
       "image/jolagreen-5-artwork.jpg"
     ]
@@ -99,7 +99,7 @@ const PROJETS = [
     image: "image/hamilton-poster.jpg",
     couleur: "#8a1c5a",
     description: "Poster décoratif sur Lewis Hamilton : un collage en rose et bordeaux, avec une typographie verticale.",
-    images: []
+    image: []
   },
   {
     titre: "Affiche pour annoncer le Stade de France de SDM",
@@ -108,7 +108,7 @@ const PROJETS = [
     image: "image/sdm-stade-de-france.jpg",
     couleur: "#5b6b8c",
     description: "Affiche pour annoncer les concerts de SDM au Stade de France, dans des tons bleu glacier, avec la mention complet.",
-    images: []
+    image: []
   },
   {
     titre: "Visuel pour annoncer un jour de match (handball)",
@@ -117,7 +117,7 @@ const PROJETS = [
     image: "image/handball-match-day.jpg",
     couleur: "#16264f",
     description: "Visuel d’annonce de match de handball : date, heure, lieu et équipes en présence.",
-    images: []
+    image: []
   },
   {
     titre: "Visuel pour annoncer le nombre de streams sur l’album « 23 Jours Plus Tard » de Jolagreen",
@@ -126,7 +126,7 @@ const PROJETS = [
     image: "image/jolagreen-streams-23-jours-plus-tard.jpg",
     couleur: "#2f5d3a",
     description: "Visuel pour célébrer le nombre de streams de l’album « 23 Jours Plus Tard » de Jolagreen, dans des verts profonds.",
-    images: []
+    image: []
   },
   {
     titre: "Visuels de fin de match pour annoncer les scores (handball)",
@@ -135,7 +135,7 @@ const PROJETS = [
     image: "image/handball-score-final.jpg",
     couleur: "#27356b",
     description: "Visuel de fin de match pour annoncer le score final et la victoire.",
-    images: []
+    image: []
   },
   {
     titre: "Visuel pour l’annonce de la tracklist de l’album « Grand Garçon » de PLK",
@@ -144,7 +144,7 @@ const PROJETS = [
     image: "image/plk-tracklist-grand-garcon.jpg",
     couleur: "#6b1a1a",
     description: "Visuel pour dévoiler la tracklist de l’album « Grand Garçon » de PLK, sur une photo floutée aux accents rouges.",
-    images: []
+    image: []
   },
   {
     titre: "Visuel pour l’annonce de l’album « Grand Garçon » de PLK",
@@ -153,7 +153,7 @@ const PROJETS = [
     image: "image/plk-annonce-grand-garcon.jpg",
     couleur: "#b0193a",
     description: "Visuel pour annoncer la sortie de l’album « Grand Garçon » de PLK, dans des rouges intenses.",
-    images: []
+    image: []
   },
   {
     titre: "Fond d’écran pour ordinateur",
@@ -162,7 +162,7 @@ const PROJETS = [
     image: "image/fond-ecran-ordinateur.jpg",
     couleur: "#a3203f",
     description: "Fond d’écran pour ordinateur : un collage de motifs léopard, de fleurs et de marbre dans des rouges et des roses.",
-    images: []
+    image: []
   },
   {
     titre: "Visuel pour annoncer le nombre de streams sur l’album « Enna Boost » de PLK",
@@ -171,7 +171,7 @@ const PROJETS = [
     image: "image/plk-streams-enna-boost.jpg",
     couleur: "#3a3a3a",
     description: "Visuel pour annoncer le cap du milliard de streams de l’album « Enna Boost » de PLK.",
-    images: []
+    image: []
   },
   {
     titre: "Visuel décoratif de l’équipe de France de handball",
@@ -180,7 +180,7 @@ const PROJETS = [
     image: "image/projet-16-equipe-france-handball.jpg",
     couleur: "#2a3a8a",
     description: "Visuel décoratif sur l’équipe de France de handball : un titre massif et les joueurs en bas, dans des bleus profonds.",
-    images: []
+    image: []
   },
   {
     titre: "Affiche d’un festival de musique fictif « Contre Courant » (devoir d’école)",
@@ -189,7 +189,7 @@ const PROJETS = [
     image: "image/projet-17-contre-courant.jpg",
     couleur: "#8a1a1e",
     description: "Affiche d’un festival de musique imaginaire, réalisée dans le cadre d’un devoir d’école : programmation, dates, lieu et partenaires.",
-    images: []
+    image: []
   },
   {
     titre: "Carte de visite / carton de visite",
@@ -198,7 +198,7 @@ const PROJETS = [
     image: "image/projet-18-carte-visite-nouvelles-expressions.jpg",
     couleur: "#b8648f",
     description: "Série de cartes et cartons de visite aux ornements dorés, dans une palette de roses et de motifs rayés.",
-    images: [
+    image: [
       "image/projet-18-carte-visite-reverie.jpg",
       "image/projet-18-carte-visite-circuit-mozart.jpg",
       "image/projet-18-carte-visite-flute-enchantee.jpg"
@@ -283,7 +283,7 @@ const PHOTOS = [
     image: "image/photo-11-lion-palmyre-1.jpg",
     couleur: "#471029",
     description: "",
-    images: ["image/photo-11-lion-palmyre-2.jpg"]
+    image: ["image/photo-11-lion-palmyre-2.jpg"]
   }
 ];
 
@@ -329,7 +329,7 @@ function creerMedia(src, texte, couleur, ratio, secours) {
 const cartes = [];
 function construireCarrousel(liste, conteneur, categorieParDefaut) {
   liste.forEach(p => {
-    const fiche = { categorie: categorieParDefaut, images: [], description: "", ...p };
+    const fiche = { categorie: categorieParDefaut, image: [], description: "", ...p };
     const carte = document.createElement("button");
     carte.className = "projet";
     const [l, h] = (fiche.ratio || "4 / 3").split("/").map(Number);
@@ -406,8 +406,8 @@ const detailOuvert = () => detail.classList.contains("is-ouvert");
 const lightboxOuverte = () => lightbox.classList.contains("is-ouvert");
 
 function ouvrirProjet(p, carte) {
-  const toutes = [p.image, ...p.images];
-  const conteneur = document.getElementById("detail-images");
+  const toutes = [p.image, ...p.image];
+  const conteneur = document.getElementById("detail-image");
   conteneur.innerHTML = "";
   toutes.forEach((src, n) => {
     // Chaque image est cliquable pour l'afficher en grand
